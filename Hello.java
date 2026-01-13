@@ -1,11 +1,18 @@
 public class Hello{
     public static void main(String[] args){
         int a=10;
-        int b=3;
-        System.out.println("Addition"+(a+b));
-        System.out.println("Subtraction"+(a-b));
-        System.out.println("Multiplication"+(a*b));
-        System.out.println("Modulation"+(a/b));
-        System.out.println("helloo , This is Ranjani");
+        int b=13;
+        System.out.println("Addition value"+ (a+b));
+        System.out.println("Subtraction value is"+ (a-b));
+        System.out.println("Multiplication value is"+ (a*b));
+        System.out.println("Modulation value is"+ (a/b));
+        System.out.println("a==b" +isEqual);
+        System.out.println("a!=b" +isNotEqual);
+        System.out.println("a>b" +isGreater);
+        System.out.println("a<b" +isLesser);
+        System.out.println("a>=b" +isGreaterOrEqual);
+        System.out.println("a<=b" +isLesserOrEqual);
+
+        System.out.println("Helloo , This is Ranjani program");
     }
 }
