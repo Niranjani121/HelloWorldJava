@@ -2,6 +2,14 @@ public class Hello{
     public static void main(String[] args){
         int a=10;
         int b=13;
+
+        boolean isEqual=(a==b);
+        boolean isNotEqual=(a!=b);
+        boolean isGreater=(a>b);
+        boolean isLesser=(a<b);
+        boolean isGreaterOrEqual=(a>=b);
+        boolean isLesserOrEqual=(a<=b);
+        
         System.out.println("Addition value"+ (a+b));
         System.out.println("Subtraction value is"+ (a-b));
         System.out.println("Multiplication value is"+ (a*b));
