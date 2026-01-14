@@ -5,6 +5,5 @@ public class Array{
         System.out.println("The length of the array is"+length);
         System.out.println(numbers[4]);
         System.out.println(numbers[5]);
-        System.out.println(numbers[6]);
     } 
 }
