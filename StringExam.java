@@ -32,10 +32,10 @@ public class StringExam{
         System.out.println("Substring(0,5) :"+str1.substring(0,5));
 
         //toUppercase()
-        System.out.println("Uppercase"+str2.toUpperCase());
+        System.out.println("Uppercase :"+str2.toUpperCase());
 
         //toLowercase()
-        System.out.println("Lowercase"+str1.toLowerCase());
+        System.out.println("Lowercase :"+str1.toLowerCase());
 
         //trim()
         System.out.println("Trimmed string :"+str1.trim()+"java");
