@@ -8,7 +8,7 @@ public class Oper {
       boolean isdoorOpen=false;
 
       if(!isdoorOpen){
-         System.out.println("Door closed");
+         System.out.println("Door opened");
       }
       else{
          System.out.println("Door closed");
